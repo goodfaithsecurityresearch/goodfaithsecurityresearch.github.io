@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #E6E6E6, #F7F7F7);
+    background-size: 100% 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    background: linear-gradient(135deg, #2980B9, #6DD5FA);
+    color: #FFF;
+    text-align: center;
+    padding: 20px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 36px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.checklist {
+    background: #FFF;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.checklist h2 {
+    color: #2980B9;
+    border-bottom: 2px solid #2980B9;
+    padding-bottom: 10px;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.task input[type="checkbox"] {
+    display: none;
+}
+
+.task label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.task label i {
+    font-size: 24px;
+    color: #2980B9;
+    margin-right: 10px;
+}
+
+.task .how-to {
+    display: none;
+    padding-left: 35px;
+}
+
+.task input[type="checkbox"]:checked+label .how-to {
+    display: block;
+}
+
+.progress-bar {
+    background: #FFF;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    height: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    background: linear-gradient(135deg, #2980B9, #6DD5FA);
+    width: 50%;
+}
+
+.footer {
+    background: linear-gradient(135deg, #2980B9, #6DD5FA);
+    color: #FFF;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* ... Previous CSS code ... */
+
+/* Style for the how-to element */
+.how-to {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+/* Style for the how-to element when it's visible */
+.how-to.show-how-to {
+    display: block;
+}
+
+/* ... Remaining CSS code ... */
+/* Customize the font for the navigation links */
+/* Customize the font for the navigation links */
+.navbar a {
+    font-family: "Arial", sans-serif;
+    /* Replace with your desired font */
+    font-size: 18px;
+    /* Adjust the font size as needed */
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+    /* Change the color to match your design */
+    padding: 10px 15px;
+}
+
+/* Add a hover effect for the navigation links */
+.navbar a:hover {
+    background-color: #f0f0f0;
+    /* Change the background color on hover */
+    color: #007bff;
+    /* Change the text color on hover */
+}
+
+/* Center the navigation links under the title */
+.nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .about-section {
+    margin-top: 50px;
+}
+
+.contact .about-section h2 {
+    color: #333;
+    font-size: 28px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+.contact .about-section h3 {
+    color: #333;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.contact .about-section p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.contact .about-section .profile-img {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contact .about-section .profile-img img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    background: linear-gradient(135deg, #2980B9, #6DD5FA);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.contact p {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.contact h2 {
+    color: #333;
+    font-size: 28px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+.about-section h2 {
+    color: #333;
+    font-size: 28px;
+    border-bottom: 2px solid #333;
+    /* Add this line to create the border */
+    padding-bottom: 10px;
+}
